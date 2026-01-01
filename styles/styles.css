@@ -1,4 +1,5 @@
 body {
+  background-image: url("../images/90s-background.jpg");
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight:400;
@@ -7,9 +8,6 @@ body {
     "wdth" 100;
     margin: auto;
     width: 70%;
-    background: url(../images/90s-background.jpg);
-
-/* background-image: url("../images/90s-background.jpg"); */
 }
 
 .header-container {
