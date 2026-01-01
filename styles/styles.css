@@ -138,12 +138,13 @@ h2, h3{
   font-size: 20px;
   text-align: center;
   cursor: pointer;
-  /* text-decoration: none; */
+  text-decoration:underline 3px #da6b40;
 }
 
 .open-modal:hover{
   font-family: "Honk", system-ui;
   font-size: 30px;
+  text-decoration: none;
 }
 
 #modal-title,
