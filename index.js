@@ -24,7 +24,6 @@ function showSlide(n){
 }
 
 
-
 const modal = document.getElementById("modal");
 const openButtons = document.querySelectorAll(".open-modal");
 const closeBtn = document.querySelector(".close-modal");
@@ -37,12 +36,10 @@ openButtons.forEach(button => {
   button.addEventListener("click", () => {
     modalTitle.textContent = button.dataset.title;
     modalImg.src = button.dataset.img;
-    modalImg.src = button.dataset.title;
+    modalImg.alt = button.dataset.title;
     modalText.textContent = button.dataset.text;
 
     modal.style.display = "flex";
-    modal.classList.add("active");
-    modal.classList.remove("active")
   })
 })
 
